@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+
+	
+	<title>OctopusTouch</title>
+	<script src="js/jquery-latest.min.js"></script>
+	 
+    <script src="js/KeyListener.js"></script>
+    <script src="js/vk-interrupter.js"></script>
+    
+	<script src="vk/keyboard.js"></script>
+	<link href="vk/keyboard.css" rel="stylesheet">
+		<script>
+		function addVKI() {
+			var myInput = document.getElementById('myInput');
+			if (!myInput.VKI_attached) VKI_attach(myInput);
+		}
+	</script>
+	<script>
+ 
+ 	document.addEventListener('gesturestart', function (e) {
+    	e.preventDefault();
+    });
+	</script>
+</head>
+<body ng-app="exampleApp">
+	<center ng-controller="ExampleCtrl">
+		 
+		<div>
+			 
+			<input type='text' style="width:90%" class="keyboardInput" readonly="true" disabled/>
+		</div>
+		 
+	</center>
+</body>
+</html>

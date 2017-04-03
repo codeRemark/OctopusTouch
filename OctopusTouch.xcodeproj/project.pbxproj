@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		913940561E7E41ED00D82B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940551E7E41ED00D82B15 /* main.m */; };
+		913940661E7E41ED00D82B15 /* OctopusTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940651E7E41ED00D82B15 /* OctopusTouchTests.m */; };
+		913941D71E7E423B00D82B15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913940721E7E423A00D82B15 /* MainMenu.xib */; };
+		913941D91E7E423B00D82B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940771E7E423A00D82B15 /* AppDelegate.m */; };
+		913941DB1E7E423B00D82B15 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139407C1E7E423A00D82B15 /* Action.m */; };
+		913941DC1E7E423B00D82B15 /* CommandMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139407E1E7E423A00D82B15 /* CommandMananger.m */; };
+		913941DD1E7E423B00D82B15 /* FunctionKeyAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940801E7E423A00D82B15 /* FunctionKeyAction.m */; };
+		913941DE1E7E423B00D82B15 /* SingleWordAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940821E7E423A00D82B15 /* SingleWordAction.m */; };
+		913941DF1E7E423B00D82B15 /* SystemEventAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940841E7E423A00D82B15 /* SystemEventAction.m */; };
+		913941E01E7E423B00D82B15 /* KeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940871E7E423A00D82B15 /* KeyHandler.m */; };
+		913941E21E7E423B00D82B15 /* QTAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139408C1E7E423A00D82B15 /* QTAppModel.m */; };
+		913941E31E7E423B00D82B15 /* QTProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139408E1E7E423A00D82B15 /* QTProcessor.m */; };
+		913941E41E7E423B00D82B15 /* QTTypeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940901E7E423A00D82B15 /* QTTypeClass.m */; };
+		913941E51E7E423B00D82B15 /* QTKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940931E7E423A00D82B15 /* QTKey.m */; };
+		913941E61E7E423B00D82B15 /* QTSystemSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940951E7E423A00D82B15 /* QTSystemSetting.m */; };
+		913941E81E7E423B00D82B15 /* CKStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139409C1E7E423A00D82B15 /* CKStringUtils.m */; };
+		913941E91E7E423B00D82B15 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139409E1E7E423A00D82B15 /* FileHelper.m */; };
+		913941EA1E7E423B00D82B15 /* NSString+KeyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 913940A01E7E423A00D82B15 /* NSString+KeyCode.m */; };
+		913942EC1E7E423C00D82B15 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941B31E7E423B00D82B15 /* GCDWebServer.m */; };
+		913942ED1E7E423C00D82B15 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941B51E7E423B00D82B15 /* GCDWebServerConnection.m */; };
+		913942EE1E7E423C00D82B15 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941B71E7E423B00D82B15 /* GCDWebServerFunctions.m */; };
+		913942EF1E7E423C00D82B15 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941BB1E7E423B00D82B15 /* GCDWebServerRequest.m */; };
+		913942F01E7E423C00D82B15 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941BD1E7E423B00D82B15 /* GCDWebServerResponse.m */; };
+		913942F11E7E423C00D82B15 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941C01E7E423B00D82B15 /* GCDWebServerDataRequest.m */; };
+		913942F21E7E423C00D82B15 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941C21E7E423B00D82B15 /* GCDWebServerFileRequest.m */; };
+		913942F31E7E423C00D82B15 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941C41E7E423B00D82B15 /* GCDWebServerMultiPartFormRequest.m */; };
+		913942F41E7E423C00D82B15 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941C61E7E423B00D82B15 /* GCDWebServerURLEncodedFormRequest.m */; };
+		913942F51E7E423C00D82B15 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941C91E7E423B00D82B15 /* GCDWebServerDataResponse.m */; };
+		913942F61E7E423C00D82B15 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941CB1E7E423B00D82B15 /* GCDWebServerErrorResponse.m */; };
+		913942F71E7E423C00D82B15 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941CD1E7E423B00D82B15 /* GCDWebServerFileResponse.m */; };
+		913942F81E7E423C00D82B15 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941CF1E7E423B00D82B15 /* GCDWebServerStreamedResponse.m */; };
+		913942FA1E7E423C00D82B15 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 913941D31E7E423B00D82B15 /* GCDWebUploader.m */; };
+		913942FC1E7E438200D82B15 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 913942FB1E7E438200D82B15 /* libz.tbd */; };
+		913942FE1E7E438900D82B15 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 913942FD1E7E438900D82B15 /* libxml2.tbd */; };
+		913943001E7E439400D82B15 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913942FF1E7E439400D82B15 /* SystemConfiguration.framework */; };
+		913943021E7E439B00D82B15 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913943011E7E439B00D82B15 /* CoreServices.framework */; };
+		913943041E7E43A200D82B15 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913943031E7E43A200D82B15 /* CFNetwork.framework */; };
+		913943081E7E52F300D82B15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913943071E7E52F300D82B15 /* Images.xcassets */; };
+		9139430B1E7E583400D82B15 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9139430A1E7E583400D82B15 /* About.xib */; };
+		9139430E1E7E587400D82B15 /* octopus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9139430D1E7E587400D82B15 /* octopus.png */; };
+		913943121E7E613F00D82B15 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943101E7E613F00D82B15 /* PreferenceController.m */; };
+		913943131E7E613F00D82B15 /* PreferenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913943111E7E613F00D82B15 /* PreferenceController.xib */; };
+		9139431A1E7E6E6700D82B15 /* AppResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943191E7E6E6700D82B15 /* AppResource.m */; };
+		913943211E7E702300D82B15 /* Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943201E7E702300D82B15 /* Resources.m */; };
+		913943271E7E98AC00D82B15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913943261E7E98AC00D82B15 /* Cocoa.framework */; };
+		913943291E7E98B600D82B15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913943281E7E98B600D82B15 /* CoreGraphics.framework */; };
+		913943311E7E99EC00D82B15 /* DataMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139432C1E7E99EC00D82B15 /* DataMatrix.m */; };
+		913943321E7E99EC00D82B15 /* QR_Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139432E1E7E99EC00D82B15 /* QR_Encode.m */; };
+		913943331E7E99EC00D82B15 /* QREncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943301E7E99EC00D82B15 /* QREncoder.m */; };
+		913943371E7E9A4400D82B15 /* QRCodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943361E7E9A4400D82B15 /* QRCodeHelper.m */; };
+		913943571E8CD18000D82B15 /* OctopusTouchServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943531E8CD18000D82B15 /* OctopusTouchServer.m */; };
+		913943581E8CD18000D82B15 /* WebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943551E8CD18000D82B15 /* WebServer.m */; };
+		9139435B1E8CE47500D82B15 /* ResourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139435A1E8CE47500D82B15 /* ResourceHelper.m */; };
+		9139435C1E8CE47500D82B15 /* ResourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139435A1E8CE47500D82B15 /* ResourceHelper.m */; };
+		913943601E8CE90700D82B15 /* TestResourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139435F1E8CE90700D82B15 /* TestResourceHelper.m */; };
+		913943621E8CF58B00D82B15 /* Site in Resources */ = {isa = PBXBuildFile; fileRef = 913943611E8CF58B00D82B15 /* Site */; };
+		913943651E8D1BD700D82B15 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943641E8D1BD700D82B15 /* AppManager.m */; };
+		913943681E8DEB6700D82B15 /* ShortCutKeyAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 913943671E8DEB6700D82B15 /* ShortCutKeyAction.m */; };
+		9139436B1E8E3D1900D82B15 /* PasteBoardMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139436A1E8E3D1900D82B15 /* PasteBoardMananger.m */; };
+		9139436E1E8E3E3C00D82B15 /* PasteAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9139436D1E8E3E3C00D82B15 /* PasteAction.m */; };
+		DF68BD98303A5C4C8541262C /* Pods_OctopusTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E972AF7DD5F5C7CE8E8B6D74 /* Pods_OctopusTouch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		913940621E7E41ED00D82B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 913940461E7E41ED00D82B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9139404D1E7E41ED00D82B15;
+			remoteInfo = OctopusTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802CD8D4AE5338A41EAB780E /* Pods-OctopusTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OctopusTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-OctopusTouch/Pods-OctopusTouch.release.xcconfig"; sourceTree = "<group>"; };
+		9139404E1E7E41ED00D82B15 /* OctopusTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctopusTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		913940551E7E41ED00D82B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9139405C1E7E41ED00D82B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913940611E7E41ED00D82B15 /* OctopusTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctopusTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		913940651E7E41ED00D82B15 /* OctopusTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctopusTouchTests.m; sourceTree = "<group>"; };
+		913940671E7E41ED00D82B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913940731E7E423A00D82B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		913940761E7E423A00D82B15 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		913940771E7E423A00D82B15 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9139407B1E7E423A00D82B15 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		9139407C1E7E423A00D82B15 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		9139407D1E7E423A00D82B15 /* CommandMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMananger.h; sourceTree = "<group>"; };
+		9139407E1E7E423A00D82B15 /* CommandMananger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandMananger.m; sourceTree = "<group>"; };
+		9139407F1E7E423A00D82B15 /* FunctionKeyAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionKeyAction.h; sourceTree = "<group>"; };
+		913940801E7E423A00D82B15 /* FunctionKeyAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionKeyAction.m; sourceTree = "<group>"; };
+		913940811E7E423A00D82B15 /* SingleWordAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleWordAction.h; sourceTree = "<group>"; };
+		913940821E7E423A00D82B15 /* SingleWordAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleWordAction.m; sourceTree = "<group>"; };
+		913940831E7E423A00D82B15 /* SystemEventAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemEventAction.h; sourceTree = "<group>"; };
+		913940841E7E423A00D82B15 /* SystemEventAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemEventAction.m; sourceTree = "<group>"; };
+		913940861E7E423A00D82B15 /* KeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyHandler.h; sourceTree = "<group>"; };
+		913940871E7E423A00D82B15 /* KeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyHandler.m; sourceTree = "<group>"; };
+		9139408B1E7E423A00D82B15 /* QTAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTAppModel.h; sourceTree = "<group>"; };
+		9139408C1E7E423A00D82B15 /* QTAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTAppModel.m; sourceTree = "<group>"; };
+		9139408D1E7E423A00D82B15 /* QTProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTProcessor.h; sourceTree = "<group>"; };
+		9139408E1E7E423A00D82B15 /* QTProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTProcessor.m; sourceTree = "<group>"; };
+		9139408F1E7E423A00D82B15 /* QTTypeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTypeClass.h; sourceTree = "<group>"; };
+		913940901E7E423A00D82B15 /* QTTypeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTypeClass.m; sourceTree = "<group>"; };
+		913940921E7E423A00D82B15 /* QTKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKey.h; sourceTree = "<group>"; };
+		913940931E7E423A00D82B15 /* QTKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKey.m; sourceTree = "<group>"; };
+		913940941E7E423A00D82B15 /* QTSystemSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTSystemSetting.h; sourceTree = "<group>"; };
+		913940951E7E423A00D82B15 /* QTSystemSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTSystemSetting.m; sourceTree = "<group>"; };
+		9139409B1E7E423A00D82B15 /* CKStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKStringUtils.h; sourceTree = "<group>"; };
+		9139409C1E7E423A00D82B15 /* CKStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKStringUtils.m; sourceTree = "<group>"; };
+		9139409D1E7E423A00D82B15 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		9139409E1E7E423A00D82B15 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		9139409F1E7E423A00D82B15 /* NSString+KeyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KeyCode.h"; sourceTree = "<group>"; };
+		913940A01E7E423A00D82B15 /* NSString+KeyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KeyCode.m"; sourceTree = "<group>"; };
+		913941B21E7E423B00D82B15 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		913941B31E7E423B00D82B15 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		913941B41E7E423B00D82B15 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		913941B51E7E423B00D82B15 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		913941B61E7E423B00D82B15 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		913941B71E7E423B00D82B15 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		913941B81E7E423B00D82B15 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		913941B91E7E423B00D82B15 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		913941BA1E7E423B00D82B15 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		913941BB1E7E423B00D82B15 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		913941BC1E7E423B00D82B15 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		913941BD1E7E423B00D82B15 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		913941BF1E7E423B00D82B15 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		913941C01E7E423B00D82B15 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		913941C11E7E423B00D82B15 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		913941C21E7E423B00D82B15 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		913941C31E7E423B00D82B15 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		913941C41E7E423B00D82B15 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		913941C51E7E423B00D82B15 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		913941C61E7E423B00D82B15 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		913941C81E7E423B00D82B15 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		913941C91E7E423B00D82B15 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		913941CA1E7E423B00D82B15 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		913941CB1E7E423B00D82B15 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		913941CC1E7E423B00D82B15 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		913941CD1E7E423B00D82B15 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		913941CE1E7E423B00D82B15 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		913941CF1E7E423B00D82B15 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		913941D21E7E423B00D82B15 /* GCDWebUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebUploader.h; sourceTree = "<group>"; };
+		913941D31E7E423B00D82B15 /* GCDWebUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebUploader.m; sourceTree = "<group>"; };
+		913942FB1E7E438200D82B15 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		913942FD1E7E438900D82B15 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		913942FF1E7E439400D82B15 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		913943011E7E439B00D82B15 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		913943031E7E43A200D82B15 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		913943071E7E52F300D82B15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9139430A1E7E583400D82B15 /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		9139430D1E7E587400D82B15 /* octopus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octopus.png; sourceTree = "<group>"; };
+		9139430F1E7E613F00D82B15 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		913943101E7E613F00D82B15 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		913943111E7E613F00D82B15 /* PreferenceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceController.xib; sourceTree = "<group>"; };
+		913943181E7E6E6700D82B15 /* AppResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppResource.h; sourceTree = "<group>"; };
+		913943191E7E6E6700D82B15 /* AppResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppResource.m; sourceTree = "<group>"; };
+		9139431F1E7E702300D82B15 /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
+		913943201E7E702300D82B15 /* Resources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resources.m; sourceTree = "<group>"; };
+		913943221E7E706700D82B15 /* OctopusTouch_pre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctopusTouch_pre.h; sourceTree = "<group>"; };
+		913943261E7E98AC00D82B15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		913943281E7E98B600D82B15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9139432B1E7E99EC00D82B15 /* DataMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataMatrix.h; sourceTree = "<group>"; };
+		9139432C1E7E99EC00D82B15 /* DataMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataMatrix.m; sourceTree = "<group>"; };
+		9139432D1E7E99EC00D82B15 /* QR_Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QR_Encode.h; sourceTree = "<group>"; };
+		9139432E1E7E99EC00D82B15 /* QR_Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QR_Encode.m; sourceTree = "<group>"; };
+		9139432F1E7E99EC00D82B15 /* QREncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QREncoder.h; sourceTree = "<group>"; };
+		913943301E7E99EC00D82B15 /* QREncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QREncoder.m; sourceTree = "<group>"; };
+		913943351E7E9A4400D82B15 /* QRCodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeHelper.h; sourceTree = "<group>"; };
+		913943361E7E9A4400D82B15 /* QRCodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeHelper.m; sourceTree = "<group>"; };
+		913943521E8CD18000D82B15 /* OctopusTouchServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctopusTouchServer.h; sourceTree = "<group>"; };
+		913943531E8CD18000D82B15 /* OctopusTouchServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OctopusTouchServer.m; sourceTree = "<group>"; };
+		913943541E8CD18000D82B15 /* WebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServer.h; sourceTree = "<group>"; };
+		913943551E8CD18000D82B15 /* WebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServer.m; sourceTree = "<group>"; };
+		913943591E8CE47400D82B15 /* ResourceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceHelper.h; sourceTree = "<group>"; };
+		9139435A1E8CE47500D82B15 /* ResourceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceHelper.m; sourceTree = "<group>"; };
+		9139435F1E8CE90700D82B15 /* TestResourceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestResourceHelper.m; sourceTree = "<group>"; };
+		913943611E8CF58B00D82B15 /* Site */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Site; sourceTree = "<group>"; };
+		913943631E8D1BD700D82B15 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		913943641E8D1BD700D82B15 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		913943661E8DEB6700D82B15 /* ShortCutKeyAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortCutKeyAction.h; sourceTree = "<group>"; };
+		913943671E8DEB6700D82B15 /* ShortCutKeyAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortCutKeyAction.m; sourceTree = "<group>"; };
+		913943691E8E3D1900D82B15 /* PasteBoardMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteBoardMananger.h; sourceTree = "<group>"; };
+		9139436A1E8E3D1900D82B15 /* PasteBoardMananger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteBoardMananger.m; sourceTree = "<group>"; };
+		9139436C1E8E3E3C00D82B15 /* PasteAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteAction.h; sourceTree = "<group>"; };
+		9139436D1E8E3E3C00D82B15 /* PasteAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteAction.m; sourceTree = "<group>"; };
+		E3179EE09B9DD0BCE9548C32 /* Pods-OctopusTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OctopusTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OctopusTouch/Pods-OctopusTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		E972AF7DD5F5C7CE8E8B6D74 /* Pods_OctopusTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OctopusTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9139404B1E7E41ED00D82B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913943291E7E98B600D82B15 /* CoreGraphics.framework in Frameworks */,
+				913943271E7E98AC00D82B15 /* Cocoa.framework in Frameworks */,
+				913943041E7E43A200D82B15 /* CFNetwork.framework in Frameworks */,
+				913943021E7E439B00D82B15 /* CoreServices.framework in Frameworks */,
+				913943001E7E439400D82B15 /* SystemConfiguration.framework in Frameworks */,
+				913942FE1E7E438900D82B15 /* libxml2.tbd in Frameworks */,
+				913942FC1E7E438200D82B15 /* libz.tbd in Frameworks */,
+				DF68BD98303A5C4C8541262C /* Pods_OctopusTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9139405E1E7E41ED00D82B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		913940451E7E41ED00D82B15 = {
+			isa = PBXGroup;
+			children = (
+				913940501E7E41ED00D82B15 /* OctopusTouch */,
+				913940641E7E41ED00D82B15 /* OctopusTouchTests */,
+				9139404F1E7E41ED00D82B15 /* Products */,
+				D3B5928256BD3C24CD9B7E59 /* Pods */,
+				FCC0966A4C67EDFB02365A4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9139404F1E7E41ED00D82B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9139404E1E7E41ED00D82B15 /* OctopusTouch.app */,
+				913940611E7E41ED00D82B15 /* OctopusTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		913940501E7E41ED00D82B15 /* OctopusTouch */ = {
+			isa = PBXGroup;
+			children = (
+				913940751E7E423A00D82B15 /* Classes */,
+				913941AE1E7E423B00D82B15 /* Vendor */,
+				913940701E7E423A00D82B15 /* Resources */,
+				913940541E7E41ED00D82B15 /* Supporting Files */,
+			);
+			path = OctopusTouch;
+			sourceTree = "<group>";
+		};
+		913940541E7E41ED00D82B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9139405C1E7E41ED00D82B15 /* Info.plist */,
+				913943221E7E706700D82B15 /* OctopusTouch_pre.h */,
+				913940551E7E41ED00D82B15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		913940641E7E41ED00D82B15 /* OctopusTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				913940651E7E41ED00D82B15 /* OctopusTouchTests.m */,
+				913940671E7E41ED00D82B15 /* Info.plist */,
+				9139435F1E8CE90700D82B15 /* TestResourceHelper.m */,
+			);
+			path = OctopusTouchTests;
+			sourceTree = "<group>";
+		};
+		913940701E7E423A00D82B15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				913943611E8CF58B00D82B15 /* Site */,
+				9139430C1E7E587400D82B15 /* Images */,
+				913943071E7E52F300D82B15 /* Images.xcassets */,
+				913940721E7E423A00D82B15 /* MainMenu.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		913940751E7E423A00D82B15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9139431F1E7E702300D82B15 /* Resources.h */,
+				913943201E7E702300D82B15 /* Resources.m */,
+				913940761E7E423A00D82B15 /* AppDelegate.h */,
+				913940771E7E423A00D82B15 /* AppDelegate.m */,
+				913943631E8D1BD700D82B15 /* AppManager.h */,
+				913943641E8D1BD700D82B15 /* AppManager.m */,
+				913943091E7E583400D82B15 /* ViewControllers */,
+				913940791E7E423A00D82B15 /* Models */,
+				913940981E7E423A00D82B15 /* Sys */,
+				913940991E7E423A00D82B15 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		913940791E7E423A00D82B15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9139434F1E8CD18000D82B15 /* Server */,
+				9139407A1E7E423A00D82B15 /* Keyboard */,
+				913940851E7E423A00D82B15 /* Lisenter */,
+				9139408A1E7E423A00D82B15 /* QTModule */,
+				913940911E7E423A00D82B15 /* QTService */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9139407A1E7E423A00D82B15 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9139407D1E7E423A00D82B15 /* CommandMananger.h */,
+				9139407E1E7E423A00D82B15 /* CommandMananger.m */,
+				9139407B1E7E423A00D82B15 /* Action.h */,
+				9139407C1E7E423A00D82B15 /* Action.m */,
+				9139407F1E7E423A00D82B15 /* FunctionKeyAction.h */,
+				913940801E7E423A00D82B15 /* FunctionKeyAction.m */,
+				913940811E7E423A00D82B15 /* SingleWordAction.h */,
+				913940821E7E423A00D82B15 /* SingleWordAction.m */,
+				913940831E7E423A00D82B15 /* SystemEventAction.h */,
+				913940841E7E423A00D82B15 /* SystemEventAction.m */,
+				913943661E8DEB6700D82B15 /* ShortCutKeyAction.h */,
+				913943671E8DEB6700D82B15 /* ShortCutKeyAction.m */,
+				9139436C1E8E3E3C00D82B15 /* PasteAction.h */,
+				9139436D1E8E3E3C00D82B15 /* PasteAction.m */,
+				913943691E8E3D1900D82B15 /* PasteBoardMananger.h */,
+				9139436A1E8E3D1900D82B15 /* PasteBoardMananger.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		913940851E7E423A00D82B15 /* Lisenter */ = {
+			isa = PBXGroup;
+			children = (
+				913940861E7E423A00D82B15 /* KeyHandler.h */,
+				913940871E7E423A00D82B15 /* KeyHandler.m */,
+			);
+			path = Lisenter;
+			sourceTree = "<group>";
+		};
+		9139408A1E7E423A00D82B15 /* QTModule */ = {
+			isa = PBXGroup;
+			children = (
+				9139408B1E7E423A00D82B15 /* QTAppModel.h */,
+				9139408C1E7E423A00D82B15 /* QTAppModel.m */,
+				9139408D1E7E423A00D82B15 /* QTProcessor.h */,
+				9139408E1E7E423A00D82B15 /* QTProcessor.m */,
+				9139408F1E7E423A00D82B15 /* QTTypeClass.h */,
+				913940901E7E423A00D82B15 /* QTTypeClass.m */,
+			);
+			path = QTModule;
+			sourceTree = "<group>";
+		};
+		913940911E7E423A00D82B15 /* QTService */ = {
+			isa = PBXGroup;
+			children = (
+				913940921E7E423A00D82B15 /* QTKey.h */,
+				913940931E7E423A00D82B15 /* QTKey.m */,
+				913940941E7E423A00D82B15 /* QTSystemSetting.h */,
+				913940951E7E423A00D82B15 /* QTSystemSetting.m */,
+			);
+			path = QTService;
+			sourceTree = "<group>";
+		};
+		913940981E7E423A00D82B15 /* Sys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sys;
+			sourceTree = "<group>";
+		};
+		913940991E7E423A00D82B15 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9139409A1E7E423A00D82B15 /* CKStringUtils */,
+				9139409D1E7E423A00D82B15 /* FileHelper.h */,
+				9139409E1E7E423A00D82B15 /* FileHelper.m */,
+				9139409F1E7E423A00D82B15 /* NSString+KeyCode.h */,
+				913940A01E7E423A00D82B15 /* NSString+KeyCode.m */,
+				913943181E7E6E6700D82B15 /* AppResource.h */,
+				913943191E7E6E6700D82B15 /* AppResource.m */,
+				913943351E7E9A4400D82B15 /* QRCodeHelper.h */,
+				913943361E7E9A4400D82B15 /* QRCodeHelper.m */,
+				913943591E8CE47400D82B15 /* ResourceHelper.h */,
+				9139435A1E8CE47500D82B15 /* ResourceHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9139409A1E7E423A00D82B15 /* CKStringUtils */ = {
+			isa = PBXGroup;
+			children = (
+				9139409B1E7E423A00D82B15 /* CKStringUtils.h */,
+				9139409C1E7E423A00D82B15 /* CKStringUtils.m */,
+			);
+			path = CKStringUtils;
+			sourceTree = "<group>";
+		};
+		913941AE1E7E423B00D82B15 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9139432A1E7E99EC00D82B15 /* QRCode */,
+				913941AF1E7E423B00D82B15 /* GCDWebDAVServer */,
+				913941B01E7E423B00D82B15 /* GCDWebServer */,
+				913941D01E7E423B00D82B15 /* GCDWebUploader */,
+				913941D41E7E423B00D82B15 /* Mantle */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		913941AF1E7E423B00D82B15 /* GCDWebDAVServer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GCDWebDAVServer;
+			sourceTree = "<group>";
+		};
+		913941B01E7E423B00D82B15 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				913941B11E7E423B00D82B15 /* Core */,
+				913941BE1E7E423B00D82B15 /* Requests */,
+				913941C71E7E423B00D82B15 /* Responses */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		913941B11E7E423B00D82B15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				913941B21E7E423B00D82B15 /* GCDWebServer.h */,
+				913941B31E7E423B00D82B15 /* GCDWebServer.m */,
+				913941B41E7E423B00D82B15 /* GCDWebServerConnection.h */,
+				913941B51E7E423B00D82B15 /* GCDWebServerConnection.m */,
+				913941B61E7E423B00D82B15 /* GCDWebServerFunctions.h */,
+				913941B71E7E423B00D82B15 /* GCDWebServerFunctions.m */,
+				913941B81E7E423B00D82B15 /* GCDWebServerHTTPStatusCodes.h */,
+				913941B91E7E423B00D82B15 /* GCDWebServerPrivate.h */,
+				913941BA1E7E423B00D82B15 /* GCDWebServerRequest.h */,
+				913941BB1E7E423B00D82B15 /* GCDWebServerRequest.m */,
+				913941BC1E7E423B00D82B15 /* GCDWebServerResponse.h */,
+				913941BD1E7E423B00D82B15 /* GCDWebServerResponse.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		913941BE1E7E423B00D82B15 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				913941BF1E7E423B00D82B15 /* GCDWebServerDataRequest.h */,
+				913941C01E7E423B00D82B15 /* GCDWebServerDataRequest.m */,
+				913941C11E7E423B00D82B15 /* GCDWebServerFileRequest.h */,
+				913941C21E7E423B00D82B15 /* GCDWebServerFileRequest.m */,
+				913941C31E7E423B00D82B15 /* GCDWebServerMultiPartFormRequest.h */,
+				913941C41E7E423B00D82B15 /* GCDWebServerMultiPartFormRequest.m */,
+				913941C51E7E423B00D82B15 /* GCDWebServerURLEncodedFormRequest.h */,
+				913941C61E7E423B00D82B15 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		913941C71E7E423B00D82B15 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				913941C81E7E423B00D82B15 /* GCDWebServerDataResponse.h */,
+				913941C91E7E423B00D82B15 /* GCDWebServerDataResponse.m */,
+				913941CA1E7E423B00D82B15 /* GCDWebServerErrorResponse.h */,
+				913941CB1E7E423B00D82B15 /* GCDWebServerErrorResponse.m */,
+				913941CC1E7E423B00D82B15 /* GCDWebServerFileResponse.h */,
+				913941CD1E7E423B00D82B15 /* GCDWebServerFileResponse.m */,
+				913941CE1E7E423B00D82B15 /* GCDWebServerStreamedResponse.h */,
+				913941CF1E7E423B00D82B15 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		913941D01E7E423B00D82B15 /* GCDWebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				913941D21E7E423B00D82B15 /* GCDWebUploader.h */,
+				913941D31E7E423B00D82B15 /* GCDWebUploader.m */,
+			);
+			path = GCDWebUploader;
+			sourceTree = "<group>";
+		};
+		913941D41E7E423B00D82B15 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				913941D51E7E423B00D82B15 /* extobjc */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		913941D51E7E423B00D82B15 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		913943091E7E583400D82B15 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9139430A1E7E583400D82B15 /* About.xib */,
+				9139430F1E7E613F00D82B15 /* PreferenceController.h */,
+				913943101E7E613F00D82B15 /* PreferenceController.m */,
+				913943111E7E613F00D82B15 /* PreferenceController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9139430C1E7E587400D82B15 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9139430D1E7E587400D82B15 /* octopus.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9139432A1E7E99EC00D82B15 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				9139432B1E7E99EC00D82B15 /* DataMatrix.h */,
+				9139432C1E7E99EC00D82B15 /* DataMatrix.m */,
+				9139432D1E7E99EC00D82B15 /* QR_Encode.h */,
+				9139432E1E7E99EC00D82B15 /* QR_Encode.m */,
+				9139432F1E7E99EC00D82B15 /* QREncoder.h */,
+				913943301E7E99EC00D82B15 /* QREncoder.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		9139434F1E8CD18000D82B15 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				913943541E8CD18000D82B15 /* WebServer.h */,
+				913943551E8CD18000D82B15 /* WebServer.m */,
+				913943521E8CD18000D82B15 /* OctopusTouchServer.h */,
+				913943531E8CD18000D82B15 /* OctopusTouchServer.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		D3B5928256BD3C24CD9B7E59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3179EE09B9DD0BCE9548C32 /* Pods-OctopusTouch.debug.xcconfig */,
+				802CD8D4AE5338A41EAB780E /* Pods-OctopusTouch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCC0966A4C67EDFB02365A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				913943281E7E98B600D82B15 /* CoreGraphics.framework */,
+				913943261E7E98AC00D82B15 /* Cocoa.framework */,
+				913943031E7E43A200D82B15 /* CFNetwork.framework */,
+				913943011E7E439B00D82B15 /* CoreServices.framework */,
+				913942FF1E7E439400D82B15 /* SystemConfiguration.framework */,
+				913942FD1E7E438900D82B15 /* libxml2.tbd */,
+				913942FB1E7E438200D82B15 /* libz.tbd */,
+				E972AF7DD5F5C7CE8E8B6D74 /* Pods_OctopusTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9139404D1E7E41ED00D82B15 /* OctopusTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9139406A1E7E41ED00D82B15 /* Build configuration list for PBXNativeTarget "OctopusTouch" */;
+			buildPhases = (
+				C1B222334E468EE6B91C5EE6 /* [CP] Check Pods Manifest.lock */,
+				9139404A1E7E41ED00D82B15 /* Sources */,
+				9139404B1E7E41ED00D82B15 /* Frameworks */,
+				9139404C1E7E41ED00D82B15 /* Resources */,
+				F9995B12B085595103D7B462 /* [CP] Embed Pods Frameworks */,
+				AB6C6EBD3F75A94EFC875F15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OctopusTouch;
+			productName = OctopusTouch;
+			productReference = 9139404E1E7E41ED00D82B15 /* OctopusTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		913940601E7E41ED00D82B15 /* OctopusTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9139406D1E7E41ED00D82B15 /* Build configuration list for PBXNativeTarget "OctopusTouchTests" */;
+			buildPhases = (
+				9139405D1E7E41ED00D82B15 /* Sources */,
+				9139405E1E7E41ED00D82B15 /* Frameworks */,
+				9139405F1E7E41ED00D82B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				913940631E7E41ED00D82B15 /* PBXTargetDependency */,
+			);
+			name = OctopusTouchTests;
+			productName = OctopusTouchTests;
+			productReference = 913940611E7E41ED00D82B15 /* OctopusTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913940461E7E41ED00D82B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = icoco;
+				TargetAttributes = {
+					9139404D1E7E41ED00D82B15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2G42EDR44V;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					913940601E7E41ED00D82B15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2G42EDR44V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9139404D1E7E41ED00D82B15;
+					};
+				};
+			};
+			buildConfigurationList = 913940491E7E41ED00D82B15 /* Build configuration list for PBXProject "OctopusTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 913940451E7E41ED00D82B15;
+			productRefGroup = 9139404F1E7E41ED00D82B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9139404D1E7E41ED00D82B15 /* OctopusTouch */,
+				913940601E7E41ED00D82B15 /* OctopusTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9139404C1E7E41ED00D82B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913943081E7E52F300D82B15 /* Images.xcassets in Resources */,
+				9139430E1E7E587400D82B15 /* octopus.png in Resources */,
+				913941D71E7E423B00D82B15 /* MainMenu.xib in Resources */,
+				913943131E7E613F00D82B15 /* PreferenceController.xib in Resources */,
+				9139430B1E7E583400D82B15 /* About.xib in Resources */,
+				913943621E8CF58B00D82B15 /* Site in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9139405F1E7E41ED00D82B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB6C6EBD3F75A94EFC875F15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OctopusTouch/Pods-OctopusTouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B222334E468EE6B91C5EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9995B12B085595103D7B462 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OctopusTouch/Pods-OctopusTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9139404A1E7E41ED00D82B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913941EA1E7E423B00D82B15 /* NSString+KeyCode.m in Sources */,
+				913943681E8DEB6700D82B15 /* ShortCutKeyAction.m in Sources */,
+				913941E51E7E423B00D82B15 /* QTKey.m in Sources */,
+				913942F81E7E423C00D82B15 /* GCDWebServerStreamedResponse.m in Sources */,
+				913943321E7E99EC00D82B15 /* QR_Encode.m in Sources */,
+				913942FA1E7E423C00D82B15 /* GCDWebUploader.m in Sources */,
+				9139436B1E8E3D1900D82B15 /* PasteBoardMananger.m in Sources */,
+				913940561E7E41ED00D82B15 /* main.m in Sources */,
+				913941E91E7E423B00D82B15 /* FileHelper.m in Sources */,
+				913941E31E7E423B00D82B15 /* QTProcessor.m in Sources */,
+				913942F41E7E423C00D82B15 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				913941E61E7E423B00D82B15 /* QTSystemSetting.m in Sources */,
+				913943651E8D1BD700D82B15 /* AppManager.m in Sources */,
+				913942F11E7E423C00D82B15 /* GCDWebServerDataRequest.m in Sources */,
+				9139431A1E7E6E6700D82B15 /* AppResource.m in Sources */,
+				913942F31E7E423C00D82B15 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				9139435B1E8CE47500D82B15 /* ResourceHelper.m in Sources */,
+				913941DE1E7E423B00D82B15 /* SingleWordAction.m in Sources */,
+				913941E41E7E423B00D82B15 /* QTTypeClass.m in Sources */,
+				9139436E1E8E3E3C00D82B15 /* PasteAction.m in Sources */,
+				913941E81E7E423B00D82B15 /* CKStringUtils.m in Sources */,
+				913941DB1E7E423B00D82B15 /* Action.m in Sources */,
+				913943371E7E9A4400D82B15 /* QRCodeHelper.m in Sources */,
+				913942F71E7E423C00D82B15 /* GCDWebServerFileResponse.m in Sources */,
+				913941E01E7E423B00D82B15 /* KeyHandler.m in Sources */,
+				913942EE1E7E423C00D82B15 /* GCDWebServerFunctions.m in Sources */,
+				913942F61E7E423C00D82B15 /* GCDWebServerErrorResponse.m in Sources */,
+				913941E21E7E423B00D82B15 /* QTAppModel.m in Sources */,
+				913941DF1E7E423B00D82B15 /* SystemEventAction.m in Sources */,
+				913941DD1E7E423B00D82B15 /* FunctionKeyAction.m in Sources */,
+				913942F01E7E423C00D82B15 /* GCDWebServerResponse.m in Sources */,
+				913943121E7E613F00D82B15 /* PreferenceController.m in Sources */,
+				913943581E8CD18000D82B15 /* WebServer.m in Sources */,
+				913942EF1E7E423C00D82B15 /* GCDWebServerRequest.m in Sources */,
+				913943211E7E702300D82B15 /* Resources.m in Sources */,
+				913942ED1E7E423C00D82B15 /* GCDWebServerConnection.m in Sources */,
+				913943331E7E99EC00D82B15 /* QREncoder.m in Sources */,
+				913942EC1E7E423C00D82B15 /* GCDWebServer.m in Sources */,
+				913942F21E7E423C00D82B15 /* GCDWebServerFileRequest.m in Sources */,
+				913942F51E7E423C00D82B15 /* GCDWebServerDataResponse.m in Sources */,
+				913941D91E7E423B00D82B15 /* AppDelegate.m in Sources */,
+				913943311E7E99EC00D82B15 /* DataMatrix.m in Sources */,
+				913943571E8CD18000D82B15 /* OctopusTouchServer.m in Sources */,
+				913941DC1E7E423B00D82B15 /* CommandMananger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9139405D1E7E41ED00D82B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913940661E7E41ED00D82B15 /* OctopusTouchTests.m in Sources */,
+				913943601E8CE90700D82B15 /* TestResourceHelper.m in Sources */,
+				9139435C1E8CE47500D82B15 /* ResourceHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		913940631E7E41ED00D82B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9139404D1E7E41ED00D82B15 /* OctopusTouch */;
+			targetProxy = 913940621E7E41ED00D82B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		913940721E7E423A00D82B15 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913940731E7E423A00D82B15 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		913940681E7E41ED00D82B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		913940691E7E41ED00D82B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9139406B1E7E41ED00D82B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3179EE09B9DD0BCE9548C32 /* Pods-OctopusTouch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2G42EDR44V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OctopusTouch/OctopusTouch_pre.h";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = __GCDWEBSERVER_ENABLE_TESTING__;
+				INFOPLIST_FILE = OctopusTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = icoco.OctopusTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9139406C1E7E41ED00D82B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802CD8D4AE5338A41EAB780E /* Pods-OctopusTouch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2G42EDR44V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OctopusTouch/OctopusTouch_pre.h";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = __GCDWEBSERVER_ENABLE_TESTING__;
+				INFOPLIST_FILE = OctopusTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = icoco.OctopusTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9139406E1E7E41ED00D82B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2G42EDR44V;
+				INFOPLIST_FILE = OctopusTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = icoco.OctopusTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OctopusTouch.app/Contents/MacOS/OctopusTouch";
+			};
+			name = Debug;
+		};
+		9139406F1E7E41ED00D82B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2G42EDR44V;
+				INFOPLIST_FILE = OctopusTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = icoco.OctopusTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OctopusTouch.app/Contents/MacOS/OctopusTouch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913940491E7E41ED00D82B15 /* Build configuration list for PBXProject "OctopusTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913940681E7E41ED00D82B15 /* Debug */,
+				913940691E7E41ED00D82B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9139406A1E7E41ED00D82B15 /* Build configuration list for PBXNativeTarget "OctopusTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9139406B1E7E41ED00D82B15 /* Debug */,
+				9139406C1E7E41ED00D82B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9139406D1E7E41ED00D82B15 /* Build configuration list for PBXNativeTarget "OctopusTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9139406E1E7E41ED00D82B15 /* Debug */,
+				9139406F1E7E41ED00D82B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 913940461E7E41ED00D82B15 /* Project object */;
+}

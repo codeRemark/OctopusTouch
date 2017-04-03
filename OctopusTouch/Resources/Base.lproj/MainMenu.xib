@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="v6E-ze-JnC" id="xf0-6j-1qa"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="v6E-ze-JnC" customClass="AppDelegate">
+            <connections>
+                <outlet property="_menu" destination="NeP-yy-RTc" id="Pgb-1l-1h6"/>
+                <outlet property="_switchMenu" destination="o9j-jF-4d6" id="TNg-Kj-rQW"/>
+            </connections>
+        </customObject>
+        <menu id="NeP-yy-RTc">
+            <items>
+                <menuItem title="About OctopusTouch" id="B4m-ru-Oe6">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showAbout:" target="v6E-ze-JnC" id="YA1-Mz-xFF"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="rHZ-w2-Bbs"/>
+                <menuItem title="Preferences" id="eHp-yI-2W8">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showPreferences:" target="v6E-ze-JnC" id="Tak-zn-aNM"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="C4q-q2-hom"/>
+                <menuItem title="Start" id="o9j-jF-4d6">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="onTapSwitchButton:" target="v6E-ze-JnC" id="tuJ-gY-BI6"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="XoH-Pd-iO4"/>
+                <menuItem title="Quit" id="hGV-0h-rJX">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="exitAction:" target="v6E-ze-JnC" id="qSC-ty-MhI"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-199.5" y="-56.5"/>
+        </menu>
+    </objects>
+</document>
